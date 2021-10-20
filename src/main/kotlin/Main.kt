@@ -1,13 +1,10 @@
-import jdk.dynalink.Operation
-import java.lang.ArithmeticException
-
 fun main(){
     //--------------------------------------
-val  result= aaaa(10,30)
-println(result)
+    val  result= aaaa(10,30)
+    println(result)
     val result2= aaaa2(7,4)
 //----------------------oprator----------------------------------
-var peverage = readLine()!!.capitalize()
+    var peverage = readLine()!!.capitalize()
     //   peverage = null
     println (peverage)
 
@@ -21,9 +18,9 @@ var peverage = readLine()!!.capitalize()
     }
     catch (ex:ArithmeticException){
         println(ex.message)
-if (ex.message=="/ by zero"){
-    println("لاتقسم على الصفر ")
-}
+        if (ex.message=="/ by zero"){
+            println("لاتقسم على الصفر ")
+        }
         else{
             println(ex.message)
         }
